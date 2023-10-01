@@ -1,0 +1,12 @@
+
+
+@media (min-width: 1200px) {
+  aside {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    margin-right: 0 !important;
+    margin-left: 0 !important;
+  }
+}
