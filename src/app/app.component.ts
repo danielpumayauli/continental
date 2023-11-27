@@ -1,6 +1,4 @@
-import { Component, OnInit } from '@angular/core';
-
-declare function initMainTemplate():any;
+import { Component } from '@angular/core';
 
 @Component({
   selector: 'app-root',
@@ -9,9 +7,4 @@ declare function initMainTemplate():any;
 })
 export class AppComponent {
   title = 'continental';
-  // ngOnInit(): void {
-  //  setTimeout(() => {
-  //   initMainTemplate();
-  //  });
-  // }
 }

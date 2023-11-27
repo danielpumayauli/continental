@@ -1,14 +1,12 @@
 import { Component, OnInit } from '@angular/core';
 import { Router } from '@angular/router';
 
-declare function initMainTemplate():any;
-
 @Component({
   selector: 'app-side-bar',
   templateUrl: './side-bar.component.html',
   styleUrls: ['./side-bar.component.css']
 })
-export class SideBarComponent implements OnInit {
+export class SideBarComponent {
   options: any[] = [
     {
       name: 'Usuarios',
@@ -34,10 +32,4 @@ export class SideBarComponent implements OnInit {
   ];
 
   constructor(private router: Router) { }
-
-  ngOnInit(): void {
-    setTimeout(() => {
-     initMainTemplate();
-    });
-   }
 }
